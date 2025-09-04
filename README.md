@@ -1,33 +1,61 @@
-<!-- Banner -->
-<p align="center">
-  <img src="https://github.com/your-username/your-username/blob/main/assets/banner.gif" alt="Welcome Banner" />
-</p>
-
 <h1 align="center">Hi 👋, I'm Shakti Narayan Tripathi</h1>
-<h3 align="center">💻 Software Engineer | 🚀 Full-Stack Developer | 🔐 Aspiring Cybersecurity Expert</h3>
+<h3 align="center">💻 Software Engineer | 🚀 Full-Stack Developer | 🔐 Cybersecurity Enthusiast</h3>
 
 ---
 
 ## 🚀 About Me
-- 🌟 5+ years of professional experience in **software engineering**  
-- 🔧 Skilled in **PHP (Laravel), MySQL, JavaScript, AWS**  
-- 🌱 Currently exploring **Laravel Livewire, Digital Forensics & Cybersecurity**  
-- 🎯 Goal: Build **scalable, secure & impactful** web applications  
-- 💡 Passionate about **Open Source Contribution & Problem Solving**  
+- 🌟 5+ years of experience in **Software Engineering & Product Development**  
+- 🔧 Specialized in **PHP (Laravel), MySQL, AWS, JavaScript**  
+- 🌱 Currently building **scalable web platforms & exploring Cybersecurity**  
+- 🎯 Focused on **high-impact, production-ready solutions**  
+- 💡 Passionate about **Open Source, SaaS Development, and System Security**  
 
 ---
 
-## 🛠️ Tech Stack
-
-### 👨‍💻 Languages & Frameworks
+## 🛠️ Core Skills
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=php,laravel,js,html,css,bootstrap,nodejs,mysql,aws" />
+  <img src="https://skillicons.dev/icons?i=php,laravel,mysql,js,aws,git,github" />
 </p>
 
-### 🔧 Tools & IDEs
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=vscode,git,github,figma,photoshop" />
-</p>
+---
+
+## 📂 Project Portfolio
+
+### 🔹 Current Projects
+- **Sugam** → Smart workflow management system  
+- **Saf Accessories** → E-commerce platform for accessories  
+- **Igrow X** → Business growth & analytics SaaS  
+- **Formwale** → Custom form builder with automation  
+- **AgroSmart** → Rural-focused low-cost platform (dummy)  
+- **SkillHub** → Learning & Training SaaS (dummy)  
+
+---
+
+### 🔹 Featured Open Source
+- [Bulk WhatsApp Automation](https://github.com/ShaktiNTripathi/Bulk_Whatsapp) – Automation sender  
+- [PhonePe Payment Gateway](https://github.com/ShaktiNTripathi/phonepe_paymentgetway) – Secure payment integration  
+- [Color Game](https://github.com/ShaktiNTripathi/color_game) – Fun JavaScript project  
+- [iGrowx.in](https://github.com/ShaktiNTripathi/igrowx.in) – Web App with SCSS  
+
+---
+
+### 🔹 Private Projects Showcase
+*(Highlights of projects not public on GitHub)*  
+- **HRMS Pro** → Human Resource Management System  
+- **E-Voting Platform** → Role-based secure election system  
+- **Hospital+** → Patient record & appointment management  
+- **EduCloud** → School/College cloud ERP  
+- **FinTrack** → Expense & budget management  
+
+---
+
+### 🔹 Categories of Work
+- 🏦 **Payment Gateway & Finance** → PhonePe PG Integration, FinTrack  
+- 🤖 **Automation** → Bulk WhatsApp, Workflow systems  
+- 🛒 **E-Commerce** → Saf Accessories, custom stores  
+- 🌍 **SaaS Platforms** → Igrow X, SkillHub, EduCloud  
+- 🏥 **Domain Solutions** → HRMS, Hospital+, AgroSmart  
+- 🎮 **Fun & Utilities** → Color Game, small utilities  
 
 ---
 
@@ -40,10 +68,6 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=ShaktiNTripathi&theme=radical" alt="GitHub streak" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShaktiNTripathi&layout=compact&theme=radical" alt="Top Languages" />
-</p>
-
 ---
 
 ## 🏆 Achievements & Trophies
@@ -53,18 +77,10 @@
 
 ---
 
-## 📂 Featured Projects
-- 🔹 [Bulk WhatsApp Automation](https://github.com/ShaktiNTripathi/Bulk_Whatsapp) – Automation Sender  
-- 🔹 [PhonePe Payment Gateway](https://github.com/ShaktiNTripathi/phonepe_paymentgetway) – Secure Payment Integration  
-- 🔹 [Color Game](https://github.com/ShaktiNTripathi/color_game) – Fun JS Project  
-- 🔹 [iGrowx.in](https://github.com/ShaktiNTripathi/igrowx.in) – Web App with SCSS  
-
----
-
 ## 🎯 Current Focus
-- 📖 Learning **Cyber Forensics & Ethical Hacking**  
-- 🔐 Building expertise in **Cybersecurity**  
-- 🌍 Exploring **low-cost rural-tech solutions** for India  
+- 📖 Building **end-to-end scalable SaaS solutions**  
+- 🔐 Strengthening skills in **Cybersecurity & Digital Forensics**  
+- 🌱 Contributing more to **open-source ecosystem**  
 
 ---
 
