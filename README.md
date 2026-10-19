@@ -1,14 +1,10 @@
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038143/212284158-b8b43039-4123-4ae1-9141-4e5455759354.gif" width="100" alt="Header animation"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,15,20,24,27&height=260&section=header&text=Shakti%20Narayan%20Tripathi&fontSize=46&fontAlignY=38&fontColor=ffffff&animation=twinkling&stroke=ffffff&strokeWidth=0.4" width="100%" alt="Animated gradient header"/>
 
-# Shakti Narayan Tripathi
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=15,20,24&height=72&section=header&text=Full-Stack%20Software%20Engineer&fontSize=20&fontAlignY=55&fontColor=f8fafc&animation=twinkling" width="100%" alt="Header subtitle banner"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=21&duration=3000&pause=1000&color=6366F1&center=true&width=900&lines=Full-Stack+Software+Engineer;Information+Technology+since+2019;Laravel+%7C+Angular+%7C+Node.js;WhatsApp+Cloud+API+%26+Enterprise+SaaS;Certified+%7C+CCNA+%7C+CEH" alt="Typing animation"/>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/74038143/212284136-039da41e-6738-4b0e-b357-882005544174.gif" width="420" alt="Section divider"/>
+<img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=500&size=20&duration=3200&pause=900&color=E2E8F0&center=true&width=880&background=0F172A00&lines=Information+Technology+Professional+%7C+Since+2019;Laravel+%7C+Angular+%7C+Node.js+%7C+Cloud+%26+DevOps;WhatsApp+Cloud+API+%7C+Enterprise+SaaS;CCNA+%7C+CEH+%7C+Application+Security" alt="Typing animation"/>
 
 <br/>
 
@@ -175,18 +171,14 @@ Multi-tenant SaaS architecture · WhatsApp Cloud API at scale · AI-assisted wor
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038143/212284136-039da41e-6738-4b0e-b357-882005544174.gif" width="420" alt="Footer divider"/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=4000&pause=1200&color=94A3B8&center=true&width=700&lines=Thank+you+for+visiting.;Open+to+meaningful+projects.;Building+with+care+and+clarity." alt="Footer typing animation"/>
-
-<br/><br/>
-
-<img src="https://user-images.githubusercontent.com/74038143/212284158-b8b43039-4123-4ae1-9141-4e5455759354.gif" width="90" alt="Footer animation"/>
+<img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=500&size=17&duration=3800&pause=1100&color=CBD5E1&center=true&width=720&lines=Thank+you+for+visiting+my+profile.;Open+to+professional+collaboration.;Committed+to+quality+and+clarity+in+engineering." alt="Footer typing animation"/>
 
 <br/>
 
-<a href="https://github.com/ShaktiNTripathi"><strong>ShaktiNTripathi</strong></a>
+<img src="https://capsule-render.vercel.app/api?type=blur&color=gradient&customColorList=12,15,20,24&height=100&section=footer&text=.&fontSize=1&fontAlignY=50&stroke=0" width="100%" alt="Gradient transition"/>
 
-<img src="https://img.shields.io/badge/Since-2019-6366f1?style=flat-square" alt="Since 2019"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,15,20,24,27&height=200&section=footer&text=ShaktiNTripathi&fontSize=36&fontAlignY=42&fontColor=ffffff&animation=twinkling&stroke=ffffff&strokeWidth=0.3" width="100%" alt="Animated gradient footer"/>
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=15,20,24&height=64&section=footer&text=Lucknow%2C%20India+%7C+Information+Technology+since+2019&fontSize=16&fontAlignY=58&fontColor=f1f5f9&animation=twinkling" width="100%" alt="Footer details banner"/>
 
 </div>
