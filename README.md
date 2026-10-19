@@ -2,7 +2,7 @@
 
 # Shakti Narayan Tripathi
 
-**Full-Stack Software Engineer · SaaS · WhatsApp Cloud API · Cybersecurity**
+**Full-Stack Software Engineer · SaaS · WhatsApp Cloud API · Cybersecurity (CEH · CCNA)**
 
 [![Profile views](https://komarev.com/ghpvc/?username=ShaktiNTripathi&style=for-the-badge&color=6366f1)](https://github.com/ShaktiNTripathi)
 [![Followers](https://img.shields.io/github/followers/ShaktiNTripathi?style=for-the-badge&logo=github&color=181717)](https://github.com/ShaktiNTripathi?tab=followers)
@@ -27,6 +27,40 @@
 - **Specialties:** multi-tenant **SaaS**, **WhatsApp Cloud API**, CRM, healthcare platforms, payments, automation
 - **3000+** engineering commits & deliveries · **50+** projects/modules shipped across domains
 - Focus on **secure, scalable, handoff-ready** code — documentation, clean architecture, RBAC
+
+---
+
+## 🎓 Education
+
+| Year | Qualification | Field |
+|------|----------------|--------|
+| **2019** | **Diploma** | Computer Science |
+| **2022** | **B.Tech** | Computer Science & Engineering (CSE) |
+| **2024** | **M.Tech** | Computer Science & Engineering (CSE) |
+| **2026** | **MBA (IT)** | Dr. A.P.J. Abdul Kalam Technical University (**AKTU**), Lucknow |
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Diploma-Computer_Science-0ea5e9?style=for-the-badge" alt="Diploma 2019" />
+  <img src="https://img.shields.io/badge/B.Tech-CSE_2022-6366f1?style=for-the-badge" alt="B.Tech 2022" />
+  <img src="https://img.shields.io/badge/M.Tech-CSE_2024-8b5cf6?style=for-the-badge" alt="M.Tech 2024" />
+  <img src="https://img.shields.io/badge/MBA-IT_AKTU_Lucknow_2026-f97316?style=for-the-badge" alt="MBA IT 2026" />
+</p>
+
+---
+
+## 📜 Certifications
+
+| Certification | Issuer | Focus |
+|---------------|--------|--------|
+| **CCNA** | Cisco | Networking · routing · switching · enterprise fundamentals |
+| **CEH** | EC-Council | **Certified Ethical Hacker** — security assessment · penetration testing |
+
+<p align="center">
+  <img src="https://img.shields.io/badge/CCNA-Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" alt="CCNA" />
+  <img src="https://img.shields.io/badge/CEH-Certified_Ethical_Hacker-111827?style=for-the-badge&logo=hackthebox&logoColor=white" alt="CEH" />
+</p>
+
+Certificate copies (PDF/images) are in **[`certificates/`](certificates/)** in this repository.
 
 ---
 
