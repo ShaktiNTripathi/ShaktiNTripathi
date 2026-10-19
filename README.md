@@ -175,8 +175,6 @@ Multi-tenant SaaS architecture · WhatsApp Cloud API at scale · AI-assisted wor
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=blur&color=gradient&customColorList=12,15,20,24&height=100&section=footer&text=.&fontSize=1&fontAlignY=50&stroke=0" width="100%" alt="Gradient transition"/>
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,15,20,24,27&height=200&section=footer&text=ShaktiNTripathi&fontSize=36&fontAlignY=42&fontColor=ffffff&animation=twinkling&stroke=ffffff&strokeWidth=0.3" width="100%" alt="Animated gradient footer"/>
 
 <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=15,20,24&height=64&section=footer&text=Lucknow%2C%20India+%7C+Information+Technology+since+2019&fontSize=16&fontAlignY=58&fontColor=f1f5f9&animation=twinkling" width="100%" alt="Footer details banner"/>
