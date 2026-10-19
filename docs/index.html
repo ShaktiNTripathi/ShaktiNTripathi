@@ -2,10 +2,453 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta http-equiv="refresh" content="0; url=cv.html" />
-  <title>Redirect</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Shakti Narayan Tripathi — Full-stack software engineer. Laravel, Angular, WhatsApp Cloud API." />
+  <title>Shakti Narayan Tripathi · Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0b1220;
+      --surface: #111827;
+      --card: #1f2937;
+      --border: #374151;
+      --text: #f9fafb;
+      --muted: #9ca3af;
+      --accent: #6366f1;
+      --accent2: #8b5cf6;
+      --whatsapp: #25d366;
+      --radius: 12px;
+      --shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+      --max: 1080px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: "Inter", system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      font-size: 16px;
+    }
+    a { color: #a5b4fc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .wrap { max-width: var(--max); margin: 0 auto; padding: 0 1.25rem; }
+
+    /* Nav */
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(12px);
+      background: rgba(11, 18, 32, 0.85);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 0.85rem 0;
+      flex-wrap: wrap;
+    }
+    .brand { font-weight: 700; font-size: 1.05rem; letter-spacing: -0.02em; color: var(--text); }
+    .nav-links { display: flex; flex-wrap: wrap; gap: 0.35rem 1rem; font-size: 0.875rem; }
+    .nav-links a { color: var(--muted); text-decoration: none; }
+    .nav-links a:hover { color: var(--text); }
+
+    /* Hero */
+    .hero {
+      position: relative;
+      padding: 4rem 0 3.5rem;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 80% 60% at 50% -20%, rgba(99, 102, 241, 0.45), transparent),
+        radial-gradient(ellipse 50% 40% at 100% 0%, rgba(236, 72, 153, 0.2), transparent);
+      pointer-events: none;
+    }
+    .hero-grid {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      align-items: center;
+    }
+    @media (min-width: 768px) {
+      .hero-grid { grid-template-columns: 1.2fr 0.8fr; }
+    }
+    .eyebrow {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #c4b5fd;
+      margin-bottom: 0.75rem;
+    }
+    .hero h1 {
+      font-size: clamp(2rem, 5vw, 2.75rem);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 1.15;
+      margin-bottom: 0.75rem;
+    }
+    .hero-lead {
+      color: var(--muted);
+      font-size: 1.05rem;
+      max-width: 36rem;
+      margin-bottom: 1.5rem;
+    }
+    .cta-row { display: flex; flex-wrap: wrap; gap: 0.65rem; }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      font: inherit;
+      font-weight: 600;
+      font-size: 0.9rem;
+      padding: 0.65rem 1.15rem;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .btn:hover { transform: translateY(-1px); text-decoration: none; }
+    .btn-primary {
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      color: #fff;
+      box-shadow: 0 8px 24px rgba(99, 102, 241, 0.35);
+    }
+    .btn-whatsapp {
+      background: linear-gradient(135deg, #25d366, #128c7e);
+      color: #fff;
+      box-shadow: 0 8px 24px rgba(37, 211, 102, 0.3);
+    }
+    .btn-ghost {
+      background: var(--card);
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+    .btn svg { width: 1.15rem; height: 1.15rem; fill: currentColor; }
+
+    .hero-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.35rem;
+      box-shadow: var(--shadow);
+    }
+    .hero-card h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 1rem; }
+    .stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+    .stat {
+      background: var(--card);
+      border-radius: 8px;
+      padding: 0.75rem;
+      border: 1px solid var(--border);
+    }
+    .stat strong { display: block; font-size: 1.25rem; color: #e0e7ff; }
+    .stat span { font-size: 0.75rem; color: var(--muted); }
+
+    /* Sections */
+    section { padding: 3rem 0; }
+    section:nth-child(even) { background: rgba(17, 24, 39, 0.5); }
+    .section-head { margin-bottom: 1.75rem; }
+    .section-head h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    .section-head p { color: var(--muted); margin-top: 0.35rem; max-width: 40rem; }
+
+    .card-grid {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: 1fr;
+    }
+    @media (min-width: 640px) { .card-grid.cols-2 { grid-template-columns: 1fr 1fr; } }
+    @media (min-width: 900px) { .card-grid.cols-3 { grid-template-columns: repeat(3, 1fr); } }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.25rem;
+    }
+    .card h3 { font-size: 1rem; margin-bottom: 0.35rem; }
+    .card p, .card li { font-size: 0.9rem; color: var(--muted); }
+    .card ul { padding-left: 1.1rem; margin-top: 0.5rem; }
+
+    .tag-row { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+    .tag {
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 0.25rem 0.55rem;
+      border-radius: 999px;
+      background: rgba(99, 102, 241, 0.15);
+      color: #c7d2fe;
+      border: 1px solid rgba(99, 102, 241, 0.25);
+    }
+    .tag.green { background: rgba(37, 211, 102, 0.12); color: #86efac; border-color: rgba(37, 211, 102, 0.25); }
+    .tag.orange { background: rgba(249, 115, 22, 0.12); color: #fdba74; border-color: rgba(249, 115, 22, 0.25); }
+
+    .project-feature {
+      display: grid;
+      gap: 1.25rem;
+      grid-template-columns: 1fr;
+      align-items: start;
+    }
+    @media (min-width: 768px) { .project-feature { grid-template-columns: 1fr 1fr; } }
+    .project-feature .card { border-color: rgba(99, 102, 241, 0.4); }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.875rem;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.55rem 0.65rem;
+      text-align: left;
+    }
+    th { background: var(--card); color: #e0e7ff; font-weight: 600; }
+
+    /* Footer */
+    footer {
+      padding: 2.5rem 0;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.875rem;
+    }
+    footer .cta-row { justify-content: center; margin-top: 1rem; }
+
+    .float-wa {
+      position: fixed;
+      bottom: 1.25rem;
+      right: 1.25rem;
+      z-index: 40;
+      width: 3.25rem;
+      height: 3.25rem;
+      border-radius: 50%;
+      background: var(--whatsapp);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 8px 28px rgba(37, 211, 102, 0.45);
+      text-decoration: none;
+    }
+    .float-wa:hover { transform: scale(1.05); text-decoration: none; }
+    .float-wa svg { width: 1.65rem; height: 1.65rem; fill: currentColor; }
+
+    @media print {
+      @page { size: A4 portrait; margin: 8mm; }
+      .nav, .float-wa, .no-print { display: none !important; }
+      body { background: #fff; color: #111; font-size: 9pt; }
+      .hero::before { display: none; }
+      .hero { padding: 0.5rem 0; }
+      section { padding: 0.4rem 0; background: none !important; }
+      .card, .hero-card, .stat { background: #f8fafc; border-color: #e2e8f0; box-shadow: none; }
+      .hero h1 { color: #111; font-size: 16pt; }
+      .hero-lead, .card p, .section-head p { color: #444; }
+      a { color: #111; }
+      * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+    }
+  </style>
 </head>
 <body>
-  <p><a href="cv.html">Open printable profile</a></p>
+  <header class="nav no-print">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#">Shakti N. Tripathi</a>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#project">Project</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="eyebrow">Full-stack · Since 2019</span>
+          <h1>Shakti Narayan Tripathi</h1>
+          <p class="hero-lead">
+            I build production-grade SaaS, CRM, and WhatsApp Cloud API platforms with Laravel, Angular, and Node.js.
+            Seven years in IT, CCNA &amp; CEH certified, focused on security, scale, and clean handoffs.
+          </p>
+          <div class="cta-row no-print">
+            <a class="btn btn-whatsapp" href="https://wa.me/917310213636" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              WhatsApp Now
+            </a>
+            <button type="button" class="btn btn-primary" id="printBtn">Save as PDF</button>
+            <a class="btn btn-ghost" href="https://github.com/ShaktiNTripathi" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+        <aside class="hero-card">
+          <h2>At a glance</h2>
+          <div class="stat-grid">
+            <div class="stat"><strong>7+</strong><span>Years in IT</span></div>
+            <div class="stat"><strong>3,000+</strong><span>Deliveries</span></div>
+            <div class="stat"><strong>50+</strong><span>Products</span></div>
+            <div class="stat"><strong>2019</strong><span>Started</span></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>About</h2>
+          <p>End-to-end ownership from architecture to deployment — multi-tenant APIs, payments, webhooks, and admin tooling.</p>
+        </div>
+        <div class="card">
+          <p>
+            Based in Lucknow, India. I work across healthcare, e-commerce, fintech, and automation — with a strong emphasis on
+            Laravel and Angular stacks, Meta WhatsApp integrations, and secure role-based access. I value documentation and
+            maintainable code for teams and clients.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Education &amp; certifications</h2>
+        </div>
+        <div class="card-grid cols-2">
+          <div class="card">
+            <h3>Education</h3>
+            <table>
+              <tr><th>2026</th><td>MBA (IT) — AKTU, Lucknow</td></tr>
+              <tr><th>2024</th><td>M.Tech, Computer Science &amp; Engineering</td></tr>
+              <tr><th>2022</th><td>B.Tech, Computer Science &amp; Engineering</td></tr>
+              <tr><th>2019</th><td>Diploma, Computer Science</td></tr>
+            </table>
+            <div class="tag-row">
+              <span class="tag orange">MBA IT 2026</span>
+              <span class="tag">M.Tech 2024</span>
+              <span class="tag">B.Tech 2022</span>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Certifications</h3>
+            <ul>
+              <li><strong>CCNA</strong> — Cisco (networking, routing, switching)</li>
+              <li><strong>CEH</strong> — EC-Council (Certified Ethical Hacker)</li>
+            </ul>
+            <div class="tag-row">
+              <span class="tag green">CCNA</span>
+              <span class="tag green">CEH</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Technical skills</h2>
+        </div>
+        <div class="card-grid cols-3">
+          <div class="card"><h3>Backend</h3><p>PHP 8+, Laravel 12, Node.js, Express, REST, queues, Sanctum</p></div>
+          <div class="card"><h3>Frontend</h3><p>Angular 20, React, Next.js, TypeScript, Tailwind, RxJS</p></div>
+          <div class="card"><h3>Data &amp; cloud</h3><p>MySQL, MongoDB, Redis, AWS, Docker, Nginx, Linux, CI/CD</p></div>
+          <div class="card"><h3>Integrations</h3><p>WhatsApp Cloud API, Meta Graph, PayU, Razorpay, OAuth, 2FA</p></div>
+          <div class="card"><h3>Security</h3><p>RBAC, audit logs, encryption, secure SDLC (CEH-aligned)</p></div>
+          <div class="card"><h3>Domains</h3><p>Healthcare, CRM, SaaS, e-commerce, ed-tech, payments</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="project">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Featured project</h2>
+          <p>Open-source WhatsApp workspace platform — client-ready handoff.</p>
+        </div>
+        <div class="project-feature">
+          <div class="card">
+            <h3>WhatsApp-Chatbot-Platform · Pulse Social</h3>
+            <p>Laravel 12 API with Sanctum, queue workers, billing, and Meta webhooks. Angular 20 SPA for inbox, campaigns, and platform admin. Empty MySQL schema and setup guide included.</p>
+            <div class="tag-row">
+              <span class="tag">Laravel 12</span>
+              <span class="tag">Angular 20</span>
+              <span class="tag green">WhatsApp API</span>
+            </div>
+            <p style="margin-top:1rem"><a href="https://github.com/ShaktiNTripathi/WhatsApp-Chatbot-Platform">View repository on GitHub</a></p>
+          </div>
+          <div class="card">
+            <h3>Portfolio highlights</h3>
+            <ul>
+              <li>Healthcare &amp; CRM: Fair Health Price, SiaFusionHub, IMHRC, HRMS, EduCloud</li>
+              <li>WhatsApp &amp; automation: Pulse Social, bulk messaging, Express automation APIs</li>
+              <li>E-commerce &amp; fintech: Saf Accessories, PhonePe integration, FinTrack</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p>Open to professional collaboration, product engineering, and integrations work.</p>
+        </div>
+        <div class="card-grid cols-2">
+          <div class="card">
+            <h3>Direct</h3>
+            <p>Email: <a href="mailto:shaktitripathi12298@gmail.com">shaktitripathi12298@gmail.com</a></p>
+            <p>WhatsApp: <a href="https://wa.me/917310213636">+91 7310213636</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/shakti-narayan-tiwari-a21a73241">Profile</a></p>
+          </div>
+          <div class="card">
+            <h3>Links</h3>
+            <p>GitHub: <a href="https://github.com/ShaktiNTripathi">@ShaktiNTripathi</a></p>
+            <p>ORCID: <a href="https://orcid.org/0009-0002-4370-6284">0009-0002-4370-6284</a></p>
+            <p>Location: Lucknow, India</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>Shakti Narayan Tripathi · Software Engineer · Updated October 2026</p>
+      <div class="cta-row no-print">
+        <a class="btn btn-whatsapp" href="https://wa.me/917310213636">WhatsApp Now</a>
+        <a class="btn btn-ghost" href="https://github.com/ShaktiNTripathi">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <a class="float-wa no-print" href="https://wa.me/917310213636" aria-label="WhatsApp" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script>
+    function doPrint() { window.print(); }
+    document.getElementById("printBtn").addEventListener("click", doPrint);
+    if (new URLSearchParams(location.search).get("print") === "1") {
+      window.addEventListener("load", () => setTimeout(doPrint, 600));
+    }
+  </script>
 </body>
 </html>

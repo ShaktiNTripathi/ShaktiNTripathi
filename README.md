@@ -8,7 +8,8 @@
 
 <br/>
 
-[![Print profile](https://img.shields.io/badge/Print_profile-Save_as_PDF-6366f1?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://shaktintripathi.github.io/ShaktiNTripathi/cv.html?print=1)
+[![Website](https://img.shields.io/badge/Professional_Website-Visit-6366f1?style=for-the-badge&logo=googlechrome&logoColor=white)](https://shaktintripathi.github.io/ShaktiNTripathi/)
+[![Print profile](https://img.shields.io/badge/Save_as_PDF-Print-475569?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://shaktintripathi.github.io/ShaktiNTripathi/?print=1)
 [![WhatsApp Now](https://img.shields.io/badge/WhatsApp-Chat_Now-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/917310213636)
 
 <br/>
