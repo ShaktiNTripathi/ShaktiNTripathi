@@ -17,7 +17,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shakti-narayan-tiwari-a21a73241)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0002--4370--6284-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0002-4370-6284)
 
-**SilverTouch Technologies** · Lucknow, India  
+**Lucknow, India**  
 📄 *Live CV · GitHub Profile · Updated October 2026*
 
 <img src="https://user-images.githubusercontent.com/74038143/212284136-039da41e-6738-4b0e-b357-882005544174.gif" width="400" alt="Divider animation"/>
@@ -28,18 +28,10 @@
 
 ## 📋 Professional summary
 
-> Software engineer with **7+ years** in the **IT industry since 2019**, delivering **production-grade** web platforms, SaaS products, and WhatsApp automation for clients across healthcare, CRM, e-commerce, and fintech. Strong in **Laravel**, **Angular**, **Node.js**, cloud deployment, and **application security** (**CEH**, **CCNA**). **3000+** commits & deliveries · **50+** projects shipped · focus on clean architecture, RBAC, documentation, and client handoff.
-
----
-
-## 💼 Work experience
-
-| Period | Role | Organization | Highlights |
-|--------|------|--------------|------------|
-| **2019 – Present** | **Software Engineer** (Full-Stack) | **SilverTouch Technologies** · Lucknow | SaaS, CRM, WhatsApp Cloud API, multi-tenant APIs, payments, admin panels |
-| **2019 – Present** | **Freelance / Client delivery** | Multiple domains | Healthcare, ERP, automation, e-commerce, gaming, ed-tech |
-
-**Core responsibilities:** architecture · API design · Laravel / Angular builds · Meta WhatsApp integration · MySQL · AWS/Docker · security reviews · team-ready documentation
+> **Full-stack software engineer** with **7+ years** in the **IT industry since 2019**. I build **production-grade** SaaS, CRM, and **WhatsApp Cloud API** platforms across healthcare, e-commerce, and fintech.  
+> **Stack:** Laravel · Angular · Node.js · MySQL · AWS · Docker · Meta webhooks · payments · RBAC.  
+> **Security:** **CEH** · **CCNA** · secure SDLC · audit-ready systems.  
+> **Track record:** **3000+** commits & deliveries · **50+** projects · clean architecture · documentation-first client handoff.
 
 ---
 
