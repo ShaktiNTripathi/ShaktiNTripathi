@@ -9,6 +9,7 @@
 <br/>
 
 [![Print profile](https://img.shields.io/badge/Print_profile-Save_as_PDF-6366f1?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://shaktintripathi.github.io/ShaktiNTripathi/cv.html?print=1)
+[![WhatsApp Now](https://img.shields.io/badge/WhatsApp-Chat_Now-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/917310213636)
 
 <br/>
 
@@ -162,6 +163,7 @@ Multi-tenant SaaS architecture · WhatsApp Cloud API at scale · AI-assisted wor
 ### Contact
 
 <p align="center">
+  <a href="https://wa.me/917310213636"><img src="https://img.shields.io/badge/WhatsApp-Chat_Now-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/></a>
   <a href="mailto:shaktitripathi12298@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://www.linkedin.com/in/shakti-narayan-tiwari-a21a73241"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://github.com/ShaktiNTripathi"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
