@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shakti Narayan Tripathi — Profile</title>
+  <style>
+    :root {
+      --ink: #0f172a;
+      --muted: #475569;
+      --accent: #4f46e5;
+      --border: #e2e8f0;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+      color: var(--ink);
+      line-height: 1.55;
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 3rem;
+      background: #f8fafc;
+    }
+    .toolbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(248, 250, 252, 0.95);
+      backdrop-filter: blur(8px);
+      padding: 0.75rem 0 1rem;
+      margin-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      align-items: center;
+      justify-content: center;
+    }
+    .btn {
+      appearance: none;
+      border: none;
+      cursor: pointer;
+      font: inherit;
+      font-weight: 600;
+      padding: 0.65rem 1.35rem;
+      border-radius: 8px;
+      background: linear-gradient(135deg, #6366f1, #8b5cf6);
+      color: #fff;
+      box-shadow: 0 4px 14px rgba(99, 102, 241, 0.35);
+    }
+    .btn:hover { filter: brightness(1.05); }
+    .btn-secondary {
+      background: #fff;
+      color: var(--accent);
+      border: 1px solid var(--border);
+      box-shadow: none;
+    }
+    .hint { font-size: 0.875rem; color: var(--muted); max-width: 28rem; text-align: center; }
+    header {
+      text-align: center;
+      padding-bottom: 1.25rem;
+      border-bottom: 2px solid var(--accent);
+      margin-bottom: 1.5rem;
+    }
+    h1 { font-size: 1.75rem; margin: 0 0 0.35rem; letter-spacing: -0.02em; }
+    .subtitle { color: var(--muted); font-size: 1.05rem; margin: 0; }
+    .contact { margin-top: 0.85rem; font-size: 0.9rem; color: var(--muted); }
+    .contact a { color: var(--accent); text-decoration: none; }
+    h2 {
+      font-size: 1.05rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--accent);
+      margin: 1.75rem 0 0.65rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.35rem;
+    }
+    p { margin: 0.5rem 0; color: var(--muted); }
+    table { width: 100%; border-collapse: collapse; font-size: 0.92rem; margin: 0.5rem 0; }
+    th, td { border: 1px solid var(--border); padding: 0.5rem 0.65rem; text-align: left; vertical-align: top; }
+    th { background: #f1f5f9; font-weight: 600; color: var(--ink); }
+    ul { margin: 0.4rem 0; padding-left: 1.2rem; color: var(--muted); }
+    .metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; font-size: 0.92rem; }
+    .metrics div { background: #fff; border: 1px solid var(--border); padding: 0.5rem 0.75rem; border-radius: 6px; }
+    .metrics strong { color: var(--ink); }
+    @media print {
+      body { background: #fff; padding: 0.5in; max-width: none; }
+      .toolbar, .no-print { display: none !important; }
+      a { color: var(--ink); text-decoration: none; }
+      h2 { page-break-after: avoid; }
+      table, tr { page-break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <div class="toolbar no-print">
+    <button type="button" class="btn" id="printBtn">Print / Save as PDF</button>
+    <a class="btn btn-secondary" href="https://github.com/ShaktiNTripathi">GitHub profile</a>
+    <p class="hint">Choose <strong>Save as PDF</strong> in the print dialog. On mobile, use Share → Print to PDF.</p>
+  </div>
+
+  <header>
+    <h1>Shakti Narayan Tripathi</h1>
+    <p class="subtitle">Full-Stack Software Engineer · Information Technology since 2019</p>
+    <p class="contact">
+      Lucknow, India ·
+      <a href="mailto:shaktitripathi12298@gmail.com">shaktitripathi12298@gmail.com</a> ·
+      <a href="https://www.linkedin.com/in/shakti-narayan-tiwari-a21a73241">LinkedIn</a> ·
+      <a href="https://github.com/ShaktiNTripathi">GitHub</a> ·
+      <a href="https://orcid.org/0009-0002-4370-6284">ORCID</a>
+    </p>
+  </header>
+
+  <section>
+    <h2>About</h2>
+    <p>
+      Full-stack software engineer with more than seven years in the information technology sector since 2019.
+      I design and deliver reliable web platforms, SaaS products, and WhatsApp Cloud API integrations for
+      healthcare, CRM, e-commerce, and financial use cases.
+    </p>
+    <p>
+      Core stack: Laravel, Angular, Node.js, MySQL, AWS, Docker — with emphasis on authentication, billing,
+      webhooks, and role-based access. CCNA and CEH certified. Over 3,000 engineering deliveries across 50+ products and modules.
+    </p>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <table>
+      <thead><tr><th>Year</th><th>Qualification</th><th>Details</th></tr></thead>
+      <tbody>
+        <tr><td>2026</td><td>MBA (Information Technology)</td><td>AKTU, Lucknow</td></tr>
+        <tr><td>2024</td><td>M.Tech</td><td>Computer Science and Engineering</td></tr>
+        <tr><td>2022</td><td>B.Tech</td><td>Computer Science and Engineering</td></tr>
+        <tr><td>2019</td><td>Diploma</td><td>Computer Science</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Certifications</h2>
+    <table>
+      <thead><tr><th>Credential</th><th>Issuer</th><th>Focus</th></tr></thead>
+      <tbody>
+        <tr><td>CCNA</td><td>Cisco</td><td>Networking, routing, switching</td></tr>
+        <tr><td>CEH</td><td>EC-Council</td><td>Certified Ethical Hacker</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Technical skills</h2>
+    <table>
+      <tbody>
+        <tr><th>Backend</th><td>PHP 8+, Laravel 12, Node.js, Express, REST, queues, Sanctum</td></tr>
+        <tr><th>Frontend</th><td>Angular 20, React, Next.js, TypeScript, Tailwind, RxJS</td></tr>
+        <tr><th>Data</th><td>MySQL, MongoDB, PostgreSQL, Redis</td></tr>
+        <tr><th>Infrastructure</th><td>AWS, Docker, Nginx, Linux, CI/CD</td></tr>
+        <tr><th>Integrations</th><td>WhatsApp Cloud API, Meta Graph, PayU, Razorpay, OAuth, 2FA</td></tr>
+        <tr><th>Security</th><td>RBAC, audit logs, encryption, secure SDLC</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Featured project</h2>
+    <p><strong>WhatsApp-Chatbot-Platform (Pulse Social)</strong> — Laravel 12 API, Angular 20 SPA, inbox, campaigns, Meta webhooks, platform admin.</p>
+    <p>github.com/ShaktiNTripathi/WhatsApp-Chatbot-Platform</p>
+  </section>
+
+  <section>
+    <h2>Portfolio highlights</h2>
+    <ul>
+      <li>Healthcare, CRM, WhatsApp, SaaS: Fair Health Price, SiaFusionHub, IMHRC, Pulse Social, HRMS, EduCloud, Formwale, and related platforms.</li>
+      <li>E-commerce, gaming, education, payments: Saf Accessories, DreamSix, Syllabus, PhonePe integration, FinTrack, AgroSmart, e-voting.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Engineering overview</h2>
+    <div class="metrics">
+      <div><strong>IT since:</strong> 2019 (7+ years)</div>
+      <div><strong>Deliveries:</strong> 3,000+</div>
+      <div><strong>Products / modules:</strong> 50+</div>
+      <div><strong>Public repos:</strong> WhatsApp-Chatbot-Platform, carrom_board</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Current focus</h2>
+    <p>Multi-tenant SaaS, WhatsApp Cloud API at scale, AI-assisted workflows, secure handoffs, technical documentation, MBA (IT) and security studies.</p>
+  </section>
+
+  <script>
+    function doPrint() {
+      window.print();
+    }
+    document.getElementById("printBtn").addEventListener("click", doPrint);
+    if (new URLSearchParams(window.location.search).get("print") === "1") {
+      window.addEventListener("load", function () {
+        setTimeout(doPrint, 400);
+      });
+    }
+  </script>
+</body>
+</html>

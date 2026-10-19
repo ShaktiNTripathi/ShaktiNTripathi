@@ -8,6 +8,10 @@
 
 <br/>
 
+[![Print profile](https://img.shields.io/badge/Print_profile-Save_as_PDF-6366f1?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://shaktintripathi.github.io/ShaktiNTripathi/cv.html?print=1)
+
+<br/>
+
 [![Profile views](https://komarev.com/ghpvc/?username=ShaktiNTripathi&style=for-the-badge&color=6366f1)](https://github.com/ShaktiNTripathi)
 [![Followers](https://img.shields.io/github/followers/ShaktiNTripathi?style=for-the-badge&logo=github&color=181717)](https://github.com/ShaktiNTripathi?tab=followers)
 [![IT since 2019](https://img.shields.io/badge/Information_Technology-2019_–_Present-6366f1?style=for-the-badge&logo=clockify&logoColor=white)](https://github.com/ShaktiNTripathi)
